@@ -1,1226 +1,56 @@
 {
-  "generatedAt": "2026-04-07T15:25:08.392Z",
+  "generatedAt": "2026-04-07T21:04:34.042Z",
   "tz": "America/Los_Angeles",
-  "total": 126,
-  "newCount": 94,
+  "total": 130,
+  "newCount": 4,
   "newReleases": [
     {
-      "title": "... ; or , the infinite apotheosis of everything under this sun and under all others ; or , a story (?) about (?) a girl (?) and her (?) computer (?) ; or , music music 2 ; or , tba (to be announced) ; or , this ; or , that ; etc. ; etc. ; etc. ; ...",
-      "artist": "signaturereverie",
-      "date": "2026-04-01",
+      "title": "Connecters Vol. 1: Original Recordings, 1992–1999",
+      "artist": "Larrison",
+      "date": "2026-04-03",
       "genre": "Electronic",
       "type": "Album",
-      "mbid": "135248ca-df2c-48c8-890a-fbc120352b84",
-      "link": "https://musicbrainz.org/release/135248ca-df2c-48c8-890a-fbc120352b84",
+      "mbid": "63a4fc6a-734a-4e71-8c5f-132b5e5fc12d",
+      "link": "https://musicbrainz.org/release/63a4fc6a-734a-4e71-8c5f-132b5e5fc12d",
       "sources": [
         "MusicBrainz"
       ],
       "seen": false
     },
     {
-      "title": "The Moment (The Score)",
-      "artist": "A. G. Cook",
-      "date": "2026-04",
+      "title": "Lies and Silence",
+      "artist": "Majestic 12",
+      "date": "2026-04-07",
       "genre": "Electronic",
       "type": "Album",
-      "mbid": "1c4afd7c-054d-4835-9f96-3a0dee0fa3e3",
-      "link": "https://musicbrainz.org/release/1c4afd7c-054d-4835-9f96-3a0dee0fa3e3",
+      "mbid": "19f0525c-66e2-41e6-a66b-6560e6073b31",
+      "link": "https://musicbrainz.org/release/19f0525c-66e2-41e6-a66b-6560e6073b31",
       "sources": [
         "MusicBrainz"
       ],
       "seen": false
     },
     {
-      "title": "Leather Temple",
-      "artist": "Carpenter Brut",
-      "date": "2026",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "ca12bdf9-c25a-4d98-9188-86d41c71efbd",
-      "link": "https://musicbrainz.org/release/ca12bdf9-c25a-4d98-9188-86d41c71efbd",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Hollow",
-      "artist": "Of the Trees",
-      "date": "2026-04-02",
+      "title": "[EP] Openworld",
+      "artist": "US Golf 95",
+      "date": "2026-04-07",
       "genre": "Electronic",
       "type": "Single",
-      "mbid": "94b2293c-538b-44c3-bf7e-d9abc3bd23fd",
-      "link": "https://musicbrainz.org/release/94b2293c-538b-44c3-bf7e-d9abc3bd23fd",
+      "mbid": "928dd16b-bbb3-4a6e-8454-bd674cabfa93",
+      "link": "https://musicbrainz.org/release/928dd16b-bbb3-4a6e-8454-bd674cabfa93",
       "sources": [
         "MusicBrainz"
       ],
       "seen": false
     },
     {
-      "title": "Uxury",
-      "artist": "Uxury",
-      "date": "2026",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "0587b7cb-1268-4f0f-aaaf-bf1417aec73a",
-      "link": "https://musicbrainz.org/release/0587b7cb-1268-4f0f-aaaf-bf1417aec73a",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "On the Road",
-      "artist": "Ah",
-      "date": "2026",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "9e6ce49b-4fd0-4145-be6c-ad0d3eeb3522",
-      "link": "https://musicbrainz.org/release/9e6ce49b-4fd0-4145-be6c-ad0d3eeb3522",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Art Book Two",
-      "artist": "Johnny Spykes",
-      "date": "2026",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "e057fd1f-3941-474e-9006-42e13b32a7f7",
-      "link": "https://musicbrainz.org/release/e057fd1f-3941-474e-9006-42e13b32a7f7",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] MONTAGEM RITMO",
-      "artist": "X SMILE",
-      "date": "2026-04-01",
-      "genre": "Electronic",
-      "type": "EP",
-      "mbid": "fe1fb3f6-cb54-4062-9dc8-b6998151150f",
-      "link": "https://musicbrainz.org/release/fe1fb3f6-cb54-4062-9dc8-b6998151150f",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Welcome to the Barg'N-Mart!®",
-      "artist": "대양supermarket",
-      "date": "2026-04-04",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "69ef7b44-6b2d-4cb3-ab27-59fcbe48b803",
-      "link": "https://musicbrainz.org/release/69ef7b44-6b2d-4cb3-ab27-59fcbe48b803",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Plays World Hits",
-      "artist": "Michiel van der Kuy",
-      "date": "2026",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "5e78e3b8-3b93-4a35-b78f-392bcd508107",
-      "link": "https://musicbrainz.org/release/5e78e3b8-3b93-4a35-b78f-392bcd508107",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "In A Space Outta Dub",
-      "artist": "Nightmares on Wax",
-      "date": "2026-04-03",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "d86c8f70-4cf8-4ce8-ae06-17e995c7a2a6",
-      "link": "https://musicbrainz.org/release/d86c8f70-4cf8-4ce8-ae06-17e995c7a2a6",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Reverence",
-      "artist": "Georgai",
-      "date": "2026-03-31",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "871e625e-ac8d-4a64-ba4f-c8697b95614b",
-      "link": "https://musicbrainz.org/release/871e625e-ac8d-4a64-ba4f-c8697b95614b",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "The Great Adventure",
-      "artist": "DJ BoBo",
-      "date": "2026",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "678bbf03-22b8-4342-bf02-7f0a0dcb353d",
-      "link": "https://musicbrainz.org/release/678bbf03-22b8-4342-bf02-7f0a0dcb353d",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "DUB",
-      "artist": "Invisible System",
-      "date": "2026-03-31",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "c8cda990-6404-46bd-9164-0695e5ac375c",
-      "link": "https://musicbrainz.org/release/c8cda990-6404-46bd-9164-0695e5ac375c",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Relapse",
-      "artist": "Nosphere",
-      "date": "2026-04-03",
-      "genre": "Electronic",
-      "type": "Single",
-      "mbid": "50131f87-2674-4065-aed4-d99495a6f9f1",
-      "link": "https://musicbrainz.org/release/50131f87-2674-4065-aed4-d99495a6f9f1",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Perception",
-      "artist": "Lunar Ulna",
-      "date": "2026-04-04",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "f06c2037-7f07-4fba-bb07-99af9e21f813",
-      "link": "https://musicbrainz.org/release/f06c2037-7f07-4fba-bb07-99af9e21f813",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] PUSSY ASS HOES!",
-      "artist": "Acidgvrl",
-      "date": "2026-03-31",
-      "genre": "Electronic",
-      "type": "Single",
-      "mbid": "28cf5be2-5b7b-4780-b049-f450ccd51cd7",
-      "link": "https://musicbrainz.org/release/28cf5be2-5b7b-4780-b049-f450ccd51cd7",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Nosce te ipsum",
-      "artist": "Claudien",
-      "date": "2026-04-02",
-      "genre": "Electronic",
-      "type": "EP",
-      "mbid": "cd16347f-9c3d-4460-ae56-90560d3f6e13",
-      "link": "https://musicbrainz.org/release/cd16347f-9c3d-4460-ae56-90560d3f6e13",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] More Than Love, Part 2",
-      "artist": "Handbook",
-      "date": "2026-04-03",
-      "genre": "Electronic",
-      "type": "EP",
-      "mbid": "90ee9fee-4c34-443c-b2c4-19b2dd54d222",
-      "link": "https://musicbrainz.org/release/90ee9fee-4c34-443c-b2c4-19b2dd54d222",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Musikexpress 04/26",
-      "artist": "Various Artists",
-      "date": "2026-03",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "215afc7c-41c3-4fb9-8113-f755ad16c2be",
-      "link": "https://musicbrainz.org/release/215afc7c-41c3-4fb9-8113-f755ad16c2be",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "white pollen",
-      "artist": "CTRLFR33K",
-      "date": "2026-04-02",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "5f068358-d1f9-492b-85f8-6e6701583f96",
-      "link": "https://musicbrainz.org/release/5f068358-d1f9-492b-85f8-6e6701583f96",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Number One Boy",
-      "artist": "Boy Throb",
-      "date": "2026-04-03",
-      "genre": "Electronic",
-      "type": "Single",
-      "mbid": "079e793c-7fdd-4fc6-b703-f68271b86299",
-      "link": "https://musicbrainz.org/release/079e793c-7fdd-4fc6-b703-f68271b86299",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "5 AM In Japan",
-      "artist": "//DLM",
-      "date": "2026-04-06",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "4fc8f456-3f7b-40db-89f9-fcca15fb7f9f",
-      "link": "https://musicbrainz.org/release/4fc8f456-3f7b-40db-89f9-fcca15fb7f9f",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "NOSTALGIA BEATS 2",
-      "artist": "Telamon",
-      "date": "2026-04-01",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "204df493-37ef-4ba7-97f9-de8706dd2c25",
-      "link": "https://musicbrainz.org/release/204df493-37ef-4ba7-97f9-de8706dd2c25",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "NOSTALGIA BEATS",
-      "artist": "Telamon",
-      "date": "2026-04-01",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "8a013e6d-4cf6-4ab0-955a-99f1073f0d8f",
-      "link": "https://musicbrainz.org/release/8a013e6d-4cf6-4ab0-955a-99f1073f0d8f",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] In Another Life",
-      "artist": "Nordic Cool",
-      "date": "2026-04-06",
-      "genre": "Ambient",
-      "type": "EP",
-      "mbid": "9193ad81-a626-4778-8a60-0278d085dc0f",
-      "link": "https://musicbrainz.org/release/9193ad81-a626-4778-8a60-0278d085dc0f",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Scattered Poems from Nature, Vol. 1",
-      "artist": "Center of Attention",
-      "date": "2026-04-03",
-      "genre": "Ambient",
-      "type": "EP",
-      "mbid": "d40b1b7f-cc44-4f9d-ad4c-cf11d8a523cc",
-      "link": "https://musicbrainz.org/release/d40b1b7f-cc44-4f9d-ad4c-cf11d8a523cc",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] No Longer Making Harsh Noise Wall",
-      "artist": "Lord Cernunnos",
-      "date": "2026-04-01",
-      "genre": "Ambient",
-      "type": "EP",
-      "mbid": "c4f86168-feef-44fe-b54c-b66d736b13cb",
-      "link": "https://musicbrainz.org/release/c4f86168-feef-44fe-b54c-b66d736b13cb",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Shadow of the Storm Original Soundtrack",
-      "artist": "Tom Figgins",
-      "date": "2026-04-01",
-      "genre": "Ambient",
-      "type": "EP",
-      "mbid": "9a09b4ce-b4f4-4193-9fdc-c3493f03ae6b",
-      "link": "https://musicbrainz.org/release/9a09b4ce-b4f4-4193-9fdc-c3493f03ae6b",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Spire in Bloom Original Soundtrack",
-      "artist": "Tom Figgins",
-      "date": "2026-04-01",
-      "genre": "Ambient",
-      "type": "EP",
-      "mbid": "08ccdd94-2912-442b-ae79-72fcca9b7573",
-      "link": "https://musicbrainz.org/release/08ccdd94-2912-442b-ae79-72fcca9b7573",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Maritima",
-      "artist": "Domy Castellano",
-      "date": "2026-04-03",
-      "genre": "Ambient",
-      "type": "Album",
-      "mbid": "cada48b2-29c4-415b-a44b-4d3547625b33",
-      "link": "https://musicbrainz.org/release/cada48b2-29c4-415b-a44b-4d3547625b33",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Ēosturmōnaþ",
-      "artist": "Lord Cernunnos",
-      "date": "2026-04-05",
-      "genre": "Ambient",
-      "type": "EP",
-      "mbid": "0ed3bca4-f46a-4727-88c4-a3dcfc9fd770",
-      "link": "https://musicbrainz.org/release/0ed3bca4-f46a-4727-88c4-a3dcfc9fd770",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "O Elementis (Earth)",
-      "artist": "Paul Mallatratt",
-      "date": "2026-04-05",
-      "genre": "Ambient",
-      "type": "Album",
-      "mbid": "1e264ad1-7323-4412-8975-1b4f243a4ce7",
-      "link": "https://musicbrainz.org/release/1e264ad1-7323-4412-8975-1b4f243a4ce7",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] The Floating Garden",
-      "artist": "ΧΡΟΝΟΤΟΠΟΣ",
-      "date": "2026-04-05",
-      "genre": "Ambient",
-      "type": "EP",
-      "mbid": "e4408e88-837d-4385-b6d3-fe3fbe21d05c",
-      "link": "https://musicbrainz.org/release/e4408e88-837d-4385-b6d3-fe3fbe21d05c",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Fairchild Ice Melt",
-      "artist": "Steven F. Allen",
-      "date": "2026-04-03",
-      "genre": "Ambient",
-      "type": "Single",
-      "mbid": "6aa0fe61-efe7-4a60-9109-c73c17220b2d",
-      "link": "https://musicbrainz.org/release/6aa0fe61-efe7-4a60-9109-c73c17220b2d",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Momentum",
-      "artist": "Florent Combe",
-      "date": "2026-03-31",
-      "genre": "Ambient",
-      "type": "Single",
-      "mbid": "436d1e40-31aa-4610-957f-2edf6fedf15a",
-      "link": "https://musicbrainz.org/release/436d1e40-31aa-4610-957f-2edf6fedf15a",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Vol.II",
-      "artist": "Angine de Poitrine",
-      "date": "2026-04-03",
-      "genre": "Experimental",
-      "type": "Album",
-      "mbid": "aa7845c8-79e3-4149-93ac-3968d7951439",
-      "link": "https://musicbrainz.org/release/aa7845c8-79e3-4149-93ac-3968d7951439",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "My Ghosts Go Ghost",
-      "artist": "By Storm",
-      "date": "2026-04-01",
-      "genre": "Experimental",
-      "type": "Album",
-      "mbid": "62a8d1bb-d291-4c8d-a258-3d217c697158",
-      "link": "https://musicbrainz.org/release/62a8d1bb-d291-4c8d-a258-3d217c697158",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] PSYCHOSIS",
-      "artist": "Acidgvrl",
-      "date": "2026-04-03",
-      "genre": "Experimental",
-      "type": "Single",
-      "mbid": "a21fe513-9d52-4041-aa2a-78d86ce79479",
-      "link": "https://musicbrainz.org/release/a21fe513-9d52-4041-aa2a-78d86ce79479",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] AND I WILT FOR YOU (EP)",
-      "artist": "Blank Entourage",
-      "date": "2026-04-06",
-      "genre": "Experimental",
-      "type": "EP",
-      "mbid": "9d6ec8d7-9671-4e7f-9cb8-e3c03f84b071",
-      "link": "https://musicbrainz.org/release/9d6ec8d7-9671-4e7f-9cb8-e3c03f84b071",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "快照怪兽",
-      "artist": "DEATH DEVOIR",
-      "date": "2026-04-06",
-      "genre": "Experimental",
-      "type": "Album",
-      "mbid": "bc574029-a394-47b5-87dd-a98e380613d9",
-      "link": "https://musicbrainz.org/release/bc574029-a394-47b5-87dd-a98e380613d9",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "MathQuest • '98 Edition",
-      "artist": "undersaken",
-      "date": "2026-04-01",
-      "genre": "Experimental",
-      "type": "Album",
-      "mbid": "f498c7f1-a893-4310-b818-4ce3a64e4dbe",
-      "link": "https://musicbrainz.org/release/f498c7f1-a893-4310-b818-4ce3a64e4dbe",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Not a Trampoline",
-      "artist": "Rob Cantor",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "2c0abf2d-4c50-48c3-93aa-04b7e84ff4e2",
-      "link": "https://musicbrainz.org/release/2c0abf2d-4c50-48c3-93aa-04b7e84ff4e2",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] A Pocket In Time",
-      "artist": "Awkward Convos",
-      "date": "2026-04-01",
-      "genre": "Rock",
-      "type": "EP",
-      "mbid": "1d3fafd2-e121-4d56-9053-c34e4ea692c5",
-      "link": "https://musicbrainz.org/release/1d3fafd2-e121-4d56-9053-c34e4ea692c5",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Almost There",
-      "artist": "The Academy Is...",
-      "date": "2026-03",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "16a3febe-b59f-46c6-82ae-830b5ef0a459",
-      "link": "https://musicbrainz.org/release/16a3febe-b59f-46c6-82ae-830b5ef0a459",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Lifelines",
-      "artist": "Chris Norman",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "82334e1e-ba8d-44b8-ae2d-786f80b70201",
-      "link": "https://musicbrainz.org/release/82334e1e-ba8d-44b8-ae2d-786f80b70201",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] The Edge of Dissonance (Edit)",
-      "artist": "Jun OKUNO",
-      "date": "2026-04-03",
-      "genre": "Rock",
-      "type": "Single",
-      "mbid": "48850eeb-60f5-4f50-bb48-6629645b886b",
-      "link": "https://musicbrainz.org/release/48850eeb-60f5-4f50-bb48-6629645b886b",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Golden Mess",
-      "artist": "Nick Betschart, Dyeana",
-      "date": "2026-04-03",
-      "genre": "Rock",
-      "type": "Single",
-      "mbid": "8a5fc13a-05ec-4b32-8e13-7942a414926c",
-      "link": "https://musicbrainz.org/release/8a5fc13a-05ec-4b32-8e13-7942a414926c",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Future Soul",
-      "artist": "Tedeschi Trucks Band",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "232e13a5-026b-4057-bb58-baec7a3ab40b",
-      "link": "https://musicbrainz.org/release/232e13a5-026b-4057-bb58-baec7a3ab40b",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "A fenyő",
-      "artist": "Fenyő Miklós",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "e31e116b-9a03-4d68-ae28-613cbb221485",
-      "link": "https://musicbrainz.org/release/e31e116b-9a03-4d68-ae28-613cbb221485",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Shared Whining",
-      "artist": "Wasted Youth Club",
-      "date": "2026-04-03",
-      "genre": "Rock",
-      "type": "EP",
-      "mbid": "96ef7693-7b2c-4838-8a29-f7678adc965b",
-      "link": "https://musicbrainz.org/release/96ef7693-7b2c-4838-8a29-f7678adc965b",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] ENTRAILS OF IDEAS",
-      "artist": "The_Sylence_Project",
-      "date": "2026-04-03",
-      "genre": "Rock",
-      "type": "Single",
-      "mbid": "c6c629a6-d734-439f-a702-eb47ce482071",
-      "link": "https://musicbrainz.org/release/c6c629a6-d734-439f-a702-eb47ce482071",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Unpredictable Blooming",
-      "artist": "Swayglow",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "EP",
-      "mbid": "880b9321-8d33-44e9-b200-a9688d2a29b4",
-      "link": "https://musicbrainz.org/release/880b9321-8d33-44e9-b200-a9688d2a29b4",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Cross of Light",
-      "artist": "Raul Hurtado",
-      "date": "2026-04-03",
-      "genre": "Rock",
-      "type": "Single",
-      "mbid": "8b31f1ac-01b1-439d-9251-8a943c740097",
-      "link": "https://musicbrainz.org/release/8b31f1ac-01b1-439d-9251-8a943c740097",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Live. Rare. Unreleased. (1965-1969)",
-      "artist": "Small Faces",
-      "date": "2026-03",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "3dddd25c-0a37-4569-bb69-248376c7ad33",
-      "link": "https://musicbrainz.org/release/3dddd25c-0a37-4569-bb69-248376c7ad33",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Im Reich des Zauberers",
-      "artist": "Merlin",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "61b819ad-6f8d-4c71-b2eb-9bc52e985981",
-      "link": "https://musicbrainz.org/release/61b819ad-6f8d-4c71-b2eb-9bc52e985981",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Stone Road",
-      "artist": "Twin Lilies",
-      "date": "2026-04-01",
-      "genre": "Rock",
-      "type": "EP",
-      "mbid": "63d4bd98-e790-4a4b-b2ab-963729f4e246",
-      "link": "https://musicbrainz.org/release/63d4bd98-e790-4a4b-b2ab-963729f4e246",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Ham of the Crowd",
-      "artist": "Alcestice",
-      "date": "2026-04-05",
-      "genre": "Rock",
-      "type": "Single",
-      "mbid": "b37c34f6-e15b-44c6-863c-8411f314d3fb",
-      "link": "https://musicbrainz.org/release/b37c34f6-e15b-44c6-863c-8411f314d3fb",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Dust Absorber",
-      "artist": "Dust Absorber",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "EP",
-      "mbid": "2090be35-86f7-41e3-9506-50646a490613",
-      "link": "https://musicbrainz.org/release/2090be35-86f7-41e3-9506-50646a490613",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Nostalgia In Times Queer",
-      "artist": "Ull Möck Electrio",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "4b839b2b-8d1e-4cf9-a144-f1daacea75be",
-      "link": "https://musicbrainz.org/release/4b839b2b-8d1e-4cf9-a144-f1daacea75be",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Demon Slayer",
-      "artist": "The Blue Herons",
-      "date": "2026-04-03",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "1829e1ef-9bb8-415c-8841-44546ea1dbc1",
-      "link": "https://musicbrainz.org/release/1829e1ef-9bb8-415c-8841-44546ea1dbc1",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Cryptic",
-      "artist": "Edge of Sanity",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "6e993961-f8f8-449b-b990-a39a5a934678",
-      "link": "https://musicbrainz.org/release/6e993961-f8f8-449b-b990-a39a5a934678",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Elegy – Chapter II",
-      "artist": "Edge of Sanity",
-      "date": "2026-04-03",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "52b56413-b2ab-40de-b5a9-0e3dea858310",
-      "link": "https://musicbrainz.org/release/52b56413-b2ab-40de-b5a9-0e3dea858310",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Hyperphantasia",
-      "artist": "Child Seat",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "277bf7d2-75d5-412d-9ac5-24c9d038ad13",
-      "link": "https://musicbrainz.org/release/277bf7d2-75d5-412d-9ac5-24c9d038ad13",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "The New Flesh",
-      "artist": "Sylosis",
-      "date": "2026",
-      "genre": "Rock",
-      "type": "Album",
-      "mbid": "3909d3e4-7ed4-4bb4-be01-dbc45b783468",
-      "link": "https://musicbrainz.org/release/3909d3e4-7ed4-4bb4-be01-dbc45b783468",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "II",
-      "artist": "Bach Jazz",
-      "date": "2026-03-31",
-      "genre": "Jazz",
-      "type": "Album",
-      "mbid": "43f05656-6f89-4d6e-8034-ecf228de41ed",
-      "link": "https://musicbrainz.org/release/43f05656-6f89-4d6e-8034-ecf228de41ed",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "100 Miles: The Classic Sounds of Miles Davis & Friends",
-      "artist": "Various Artists",
-      "date": "2026-04",
-      "genre": "Jazz",
-      "type": "Album",
-      "mbid": "4b201620-2383-4ba4-aeef-fcd2f61e2ae7",
-      "link": "https://musicbrainz.org/release/4b201620-2383-4ba4-aeef-fcd2f61e2ae7",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "The Instrumental Versions, Vol. 2",
-      "artist": "De-Phazz",
-      "date": "2026-04-03",
-      "genre": "Jazz",
-      "type": "Album",
-      "mbid": "eb084c30-020b-4ded-a812-d7c201a2f6bd",
-      "link": "https://musicbrainz.org/release/eb084c30-020b-4ded-a812-d7c201a2f6bd",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Pause for a moment",
-      "artist": "Dela Hüttner’s SwingThing",
-      "date": "2026",
-      "genre": "Jazz",
-      "type": "Album",
-      "mbid": "1bd2c700-5533-4dbd-8b3d-2050c6c7e1c4",
-      "link": "https://musicbrainz.org/release/1bd2c700-5533-4dbd-8b3d-2050c6c7e1c4",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Can You Hear Me?",
-      "artist": "Zoë de Priester",
-      "date": "2026",
-      "genre": "Jazz",
-      "type": "Album",
-      "mbid": "97b43a63-de47-4b8d-b92b-6b1fcb29161f",
-      "link": "https://musicbrainz.org/release/97b43a63-de47-4b8d-b92b-6b1fcb29161f",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Where The Light Stays",
-      "artist": "Penn [BR]",
-      "date": "2026-04-01",
-      "genre": "Jazz",
-      "type": "Album",
-      "mbid": "410f2b6f-29e3-4bd0-b905-5f5a1981ed44",
-      "link": "https://musicbrainz.org/release/410f2b6f-29e3-4bd0-b905-5f5a1981ed44",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Murder She Wrote",
-      "artist": "Raydeo",
-      "date": "2026-04-03",
-      "genre": "Jazz",
-      "type": "Single",
-      "mbid": "1053cdbe-5909-44b1-8bfe-969a1083cde4",
-      "link": "https://musicbrainz.org/release/1053cdbe-5909-44b1-8bfe-969a1083cde4",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Throw Up Neon",
-      "artist": "DC THE DON",
-      "date": "2026-03-31",
-      "genre": "Hip-Hop",
-      "type": "Single",
-      "mbid": "535d3102-0e6c-40c0-9191-d753febcc40a",
-      "link": "https://musicbrainz.org/release/535d3102-0e6c-40c0-9191-d753febcc40a",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "猛虎下山",
-      "artist": "Asiaboy 禁藥王",
-      "date": "2026",
-      "genre": "Hip-Hop",
-      "type": "Album",
-      "mbid": "ef33ac1d-1165-454a-bf2a-048ed127b14c",
-      "link": "https://musicbrainz.org/release/ef33ac1d-1165-454a-bf2a-048ed127b14c",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Roofless Records For Drop Tops: Disc 1",
-      "artist": "Wiz Khalifa",
-      "date": "2026-04-02",
-      "genre": "Hip-Hop",
-      "type": "Album",
-      "mbid": "69d37914-246c-46c8-a238-3aa6ce686817",
-      "link": "https://musicbrainz.org/release/69d37914-246c-46c8-a238-3aa6ce686817",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] imposturrr",
-      "artist": "Kolladderall",
-      "date": "2026-04-03",
-      "genre": "Hip-Hop",
-      "type": "Single",
-      "mbid": "51c424c3-cfef-4cb4-a617-af0a782884cf",
-      "link": "https://musicbrainz.org/release/51c424c3-cfef-4cb4-a617-af0a782884cf",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Sommermärchen",
-      "artist": "Apsilon",
-      "date": "2026-04-02",
-      "genre": "Hip-Hop",
-      "type": "Single",
-      "mbid": "06a93600-d79e-437e-952f-4bf8a86321b4",
-      "link": "https://musicbrainz.org/release/06a93600-d79e-437e-952f-4bf8a86321b4",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Emotions",
-      "artist": "KLIM",
-      "date": "2026-04-03",
-      "genre": "Hip-Hop",
-      "type": "Single",
-      "mbid": "2a652a5e-c6d3-4bf5-803a-cf19597ca9a1",
-      "link": "https://musicbrainz.org/release/2a652a5e-c6d3-4bf5-803a-cf19597ca9a1",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "POMPEII // UTILITY",
-      "artist": "Earl Sweatshirt",
-      "date": "2026-04-03",
-      "genre": "Hip-Hop",
-      "type": "Album",
-      "mbid": "432f276c-c6d1-42fa-b8c0-17c80d809766",
-      "link": "https://musicbrainz.org/release/432f276c-c6d1-42fa-b8c0-17c80d809766",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "TOP SPOT - ANOTHER DIMENSION",
-      "artist": "T.O.P",
-      "date": "2026-04-03",
-      "genre": "Hip-Hop",
-      "type": "Album",
-      "mbid": "4032f1ae-cd16-4d07-b7fa-978b49a20987",
-      "link": "https://musicbrainz.org/release/4032f1ae-cd16-4d07-b7fa-978b49a20987",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "MAKHORIN",
-      "artist": "MAKHORIN",
-      "date": "2026",
-      "genre": "Hip-Hop",
-      "type": "Album",
-      "mbid": "d64ba74e-ce93-42e1-bd91-b7629866ae70",
-      "link": "https://musicbrainz.org/release/d64ba74e-ce93-42e1-bd91-b7629866ae70",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Hip Hop Business (Feat. PrincessRose)",
-      "artist": "Arcangel Legrand - Brotherswagg",
-      "date": "2026-03-31",
-      "genre": "Hip-Hop",
-      "type": "Single",
-      "mbid": "908119bf-45cd-4a35-a28b-9d222a2264f6",
-      "link": "https://musicbrainz.org/release/908119bf-45cd-4a35-a28b-9d222a2264f6",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "We Have What We Have",
-      "artist": "21st Century Archetype",
-      "date": "2026-04-05",
-      "genre": "Hip-Hop",
-      "type": "Album",
-      "mbid": "7632291a-086e-4741-9d60-171efae4bdbd",
-      "link": "https://musicbrainz.org/release/7632291a-086e-4741-9d60-171efae4bdbd",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Oceans Of You",
-      "artist": "Pahan Sithru Weerathunga",
-      "date": "2026-04-03",
-      "genre": "Hip-Hop",
-      "type": "Single",
-      "mbid": "95c6236b-0a5e-4201-b227-bffc57dc5eb9",
-      "link": "https://musicbrainz.org/release/95c6236b-0a5e-4201-b227-bffc57dc5eb9",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Weedian: The Best Releases of March 2026",
-      "artist": "Various Artists",
-      "date": "2026-04-03",
-      "genre": "Metal",
-      "type": "Album",
-      "mbid": "a7a483ab-2807-49d0-a0e1-e76fe93cc857",
-      "link": "https://musicbrainz.org/release/a7a483ab-2807-49d0-a0e1-e76fe93cc857",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] RE-IMAGINED FORMS",
-      "artist": "I-V-f-Y",
+      "title": "[EP] Fallen Stars",
+      "artist": "Hiiden Hirvi",
       "date": "2026-04-04",
       "genre": "Metal",
       "type": "EP",
-      "mbid": "2b6ef8bc-6a2b-41cd-806d-f0cd33c957e1",
-      "link": "https://musicbrainz.org/release/2b6ef8bc-6a2b-41cd-806d-f0cd33c957e1",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "The Third Nail",
-      "artist": "Malauriu",
-      "date": "2026-04-03",
-      "genre": "Metal",
-      "type": "Album",
-      "mbid": "4a936d30-e2ba-402e-a406-f94bb8e82b50",
-      "link": "https://musicbrainz.org/release/4a936d30-e2ba-402e-a406-f94bb8e82b50",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Obra instrumental N°1 (Kogane no mori)",
-      "artist": "Roman Santileur",
-      "date": "2026-04-05",
-      "genre": "Metal",
-      "type": "Single",
-      "mbid": "bfa87628-6d9b-4c70-9427-66eb145e1033",
-      "link": "https://musicbrainz.org/release/bfa87628-6d9b-4c70-9427-66eb145e1033",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "The Change Is Me",
-      "artist": "Doodseskader",
-      "date": "2026-04-03",
-      "genre": "Metal",
-      "type": "Album",
-      "mbid": "bfc8581a-e50b-43c7-b37b-52261420026a",
-      "link": "https://musicbrainz.org/release/bfc8581a-e50b-43c7-b37b-52261420026a",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Beat:Cancer volume 4",
-      "artist": "Xenturion Prime",
-      "date": "2026-04-03",
-      "genre": "Metal",
-      "type": "Album",
-      "mbid": "111615d9-fce1-4600-94da-f1e5019840f2",
-      "link": "https://musicbrainz.org/release/111615d9-fce1-4600-94da-f1e5019840f2",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] The Veins of a Hidden Stair",
-      "artist": "DIM",
-      "date": "2026-04-03",
-      "genre": "Metal",
-      "type": "EP",
-      "mbid": "3b9689a4-5e0d-48d8-8d01-a508335c371e",
-      "link": "https://musicbrainz.org/release/3b9689a4-5e0d-48d8-8d01-a508335c371e",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Living Free (Live Manchester '75)",
-      "artist": "Don McLean",
-      "date": "2026",
-      "genre": "Folk",
-      "type": "Album",
-      "mbid": "c073640e-6385-4815-b43c-b99f75a8df5c",
-      "link": "https://musicbrainz.org/release/c073640e-6385-4815-b43c-b99f75a8df5c",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "[EP] Не для меня",
-      "artist": "Georgai",
-      "date": "2026-03-31",
-      "genre": "Folk",
-      "type": "EP",
-      "mbid": "68211b19-6205-48d0-9fea-d0d67ff80ebd",
-      "link": "https://musicbrainz.org/release/68211b19-6205-48d0-9fea-d0d67ff80ebd",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "Everything I Never Said",
-      "artist": "Wild Fire",
-      "date": "2026",
-      "genre": "Folk",
-      "type": "Album",
-      "mbid": "c87f8746-47f9-46f8-8456-ae989240156c",
-      "link": "https://musicbrainz.org/release/c87f8746-47f9-46f8-8456-ae989240156c",
+      "mbid": "77610a6c-8b6b-45d1-a02f-c30f59ba7aac",
+      "link": "https://musicbrainz.org/release/77610a6c-8b6b-45d1-a02f-c30f59ba7aac",
       "sources": [
         "MusicBrainz"
       ],
@@ -1239,7 +69,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "The Moment (The Score)",
@@ -1252,7 +82,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Leather Temple",
@@ -1265,7 +95,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Hollow",
@@ -1275,6 +105,19 @@
       "type": "Single",
       "mbid": "94b2293c-538b-44c3-bf7e-d9abc3bd23fd",
       "link": "https://musicbrainz.org/release/94b2293c-538b-44c3-bf7e-d9abc3bd23fd",
+      "sources": [
+        "MusicBrainz"
+      ],
+      "seen": true
+    },
+    {
+      "title": "Connecters Vol. 1: Original Recordings, 1992–1999",
+      "artist": "Larrison",
+      "date": "2026-04-03",
+      "genre": "Electronic",
+      "type": "Album",
+      "mbid": "63a4fc6a-734a-4e71-8c5f-132b5e5fc12d",
+      "link": "https://musicbrainz.org/release/63a4fc6a-734a-4e71-8c5f-132b5e5fc12d",
       "sources": [
         "MusicBrainz"
       ],
@@ -1291,20 +134,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
-    },
-    {
-      "title": "On the Road",
-      "artist": "Ah",
-      "date": "2026",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "9e6ce49b-4fd0-4145-be6c-ad0d3eeb3522",
-      "link": "https://musicbrainz.org/release/9e6ce49b-4fd0-4145-be6c-ad0d3eeb3522",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Art Book Two",
@@ -1317,7 +147,20 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
+    },
+    {
+      "title": "On the Road",
+      "artist": "Ah",
+      "date": "2026",
+      "genre": "Electronic",
+      "type": "Album",
+      "mbid": "9e6ce49b-4fd0-4145-be6c-ad0d3eeb3522",
+      "link": "https://musicbrainz.org/release/9e6ce49b-4fd0-4145-be6c-ad0d3eeb3522",
+      "sources": [
+        "MusicBrainz"
+      ],
+      "seen": true
     },
     {
       "title": "[EP] MONTAGEM RITMO",
@@ -1330,7 +173,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Welcome to the Barg'N-Mart!®",
@@ -1343,7 +186,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Plays World Hits",
@@ -1356,7 +199,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "In A Space Outta Dub",
@@ -1369,7 +212,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Reverence",
@@ -1379,6 +222,19 @@
       "type": "Album",
       "mbid": "871e625e-ac8d-4a64-ba4f-c8697b95614b",
       "link": "https://musicbrainz.org/release/871e625e-ac8d-4a64-ba4f-c8697b95614b",
+      "sources": [
+        "MusicBrainz"
+      ],
+      "seen": true
+    },
+    {
+      "title": "Lies and Silence",
+      "artist": "Majestic 12",
+      "date": "2026-04-07",
+      "genre": "Electronic",
+      "type": "Album",
+      "mbid": "19f0525c-66e2-41e6-a66b-6560e6073b31",
+      "link": "https://musicbrainz.org/release/19f0525c-66e2-41e6-a66b-6560e6073b31",
       "sources": [
         "MusicBrainz"
       ],
@@ -1395,7 +251,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "DUB",
@@ -1408,7 +264,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Relapse",
@@ -1421,7 +277,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Perception",
@@ -1434,7 +290,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] PUSSY ASS HOES!",
@@ -1447,7 +303,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Nosce te ipsum",
@@ -1457,6 +313,19 @@
       "type": "EP",
       "mbid": "cd16347f-9c3d-4460-ae56-90560d3f6e13",
       "link": "https://musicbrainz.org/release/cd16347f-9c3d-4460-ae56-90560d3f6e13",
+      "sources": [
+        "MusicBrainz"
+      ],
+      "seen": true
+    },
+    {
+      "title": "[EP] Openworld",
+      "artist": "US Golf 95",
+      "date": "2026-04-07",
+      "genre": "Electronic",
+      "type": "Single",
+      "mbid": "928dd16b-bbb3-4a6e-8454-bd674cabfa93",
+      "link": "https://musicbrainz.org/release/928dd16b-bbb3-4a6e-8454-bd674cabfa93",
       "sources": [
         "MusicBrainz"
       ],
@@ -1473,7 +342,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Musikexpress 04/26",
@@ -1486,7 +355,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "white pollen",
@@ -1499,7 +368,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Number One Boy",
@@ -1512,46 +381,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
-    },
-    {
-      "title": "5 AM In Japan",
-      "artist": "//DLM",
-      "date": "2026-04-06",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "4fc8f456-3f7b-40db-89f9-fcca15fb7f9f",
-      "link": "https://musicbrainz.org/release/4fc8f456-3f7b-40db-89f9-fcca15fb7f9f",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "NOSTALGIA BEATS 2",
-      "artist": "Telamon",
-      "date": "2026-04-01",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "204df493-37ef-4ba7-97f9-de8706dd2c25",
-      "link": "https://musicbrainz.org/release/204df493-37ef-4ba7-97f9-de8706dd2c25",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
-    },
-    {
-      "title": "NOSTALGIA BEATS",
-      "artist": "Telamon",
-      "date": "2026-04-01",
-      "genre": "Electronic",
-      "type": "Album",
-      "mbid": "8a013e6d-4cf6-4ab0-955a-99f1073f0d8f",
-      "link": "https://musicbrainz.org/release/8a013e6d-4cf6-4ab0-955a-99f1073f0d8f",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] In Another Life",
@@ -1564,7 +394,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Scattered Poems from Nature, Vol. 1",
@@ -1577,7 +407,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] No Longer Making Harsh Noise Wall",
@@ -1590,7 +420,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Shadow of the Storm Original Soundtrack",
@@ -1603,7 +433,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Spire in Bloom Original Soundtrack",
@@ -1616,7 +446,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Maritima",
@@ -1629,7 +459,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Ēosturmōnaþ",
@@ -1642,7 +472,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "O Elementis (Earth)",
@@ -1655,7 +485,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "Reverence",
@@ -1665,6 +495,19 @@
       "type": "Album",
       "mbid": "871e625e-ac8d-4a64-ba4f-c8697b95614b",
       "link": "https://musicbrainz.org/release/871e625e-ac8d-4a64-ba4f-c8697b95614b",
+      "sources": [
+        "MusicBrainz"
+      ],
+      "seen": true
+    },
+    {
+      "title": "Connecters Vol. 1: Original Recordings, 1992–1999",
+      "artist": "Larrison",
+      "date": "2026-04-03",
+      "genre": "Ambient",
+      "type": "Album",
+      "mbid": "63a4fc6a-734a-4e71-8c5f-132b5e5fc12d",
+      "link": "https://musicbrainz.org/release/63a4fc6a-734a-4e71-8c5f-132b5e5fc12d",
       "sources": [
         "MusicBrainz"
       ],
@@ -1694,7 +537,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Fairchild Ice Melt",
@@ -1707,7 +550,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "[EP] Momentum",
@@ -1720,7 +563,20 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
+    },
+    {
+      "title": "Connecters Vol. 1: Original Recordings, 1992–1999",
+      "artist": "Larrison",
+      "date": "2026-04-03",
+      "genre": "Experimental",
+      "type": "Album",
+      "mbid": "63a4fc6a-734a-4e71-8c5f-132b5e5fc12d",
+      "link": "https://musicbrainz.org/release/63a4fc6a-734a-4e71-8c5f-132b5e5fc12d",
+      "sources": [
+        "MusicBrainz"
+      ],
+      "seen": true
     },
     {
       "title": "Art Book Two",
@@ -1762,6 +618,19 @@
       "seen": true
     },
     {
+      "title": "Lies and Silence",
+      "artist": "Majestic 12",
+      "date": "2026-04-07",
+      "genre": "Experimental",
+      "type": "Album",
+      "mbid": "19f0525c-66e2-41e6-a66b-6560e6073b31",
+      "link": "https://musicbrainz.org/release/19f0525c-66e2-41e6-a66b-6560e6073b31",
+      "sources": [
+        "MusicBrainz"
+      ],
+      "seen": true
+    },
+    {
       "title": "Perception",
       "artist": "Lunar Ulna",
       "date": "2026-04-04",
@@ -1785,7 +654,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "My Ghosts Go Ghost",
@@ -1798,7 +667,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "white pollen",
@@ -1824,7 +693,7 @@
       "sources": [
         "MusicBrainz"
       ],
-      "seen": false
+      "seen": true
     },
     {
       "title": "5 AM In Japan",
@@ -1834,45 +703,6 @@
       "type": "Album",
       "mbid": "4fc8f456-3f7b-40db-89f9-fcca15fb7f9f",
       "link": "https://musicbrainz.org/release/4fc8f456-3f7b-40db-89f9-fcca15fb7f9f",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": true
-    },
-    {
-      "title": "[EP] The Floating Garden",
-      "artist": "ΧΡΟΝΟΤΟΠΟΣ",
-      "date": "2026-04-05",
-      "genre": "Experimental",
-      "type": "EP",
-      "mbid": "e4408e88-837d-4385-b6d3-fe3fbe21d05c",
-      "link": "https://musicbrainz.org/release/e4408e88-837d-4385-b6d3-fe3fbe21d05c",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": true
-    },
-    {
-      "title": "NOSTALGIA BEATS 2",
-      "artist": "Telamon",
-      "date": "2026-04-01",
-      "genre": "Experimental",
-      "type": "Album",
-      "mbid": "204df493-37ef-4ba7-97f9-de8706dd2c25",
-      "link": "https://musicbrainz.org/release/204df493-37ef-4ba7-97f9-de8706dd2c25",
-      "sources": [
-        "MusicBrainz"
-      ],
-      "seen": true
-    },
-    {
-      "title": "NOSTALGIA BEATS",
-      "artist": "Telamon",
-      "date": "2026-04-01",
-      "genre": "Experimental",
-      "type": "Album",
-      "mbid": "8a013e6d-4cf6-4ab0-955a-99f1073f0d8f",
-      "link": "https://musicbrainz.org/release/8a013e6d-4cf6-4ab0-955a-99f1073f0d8f",
       "sources": [
         "MusicBrainz"
       ],
