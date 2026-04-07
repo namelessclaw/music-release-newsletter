@@ -1,0 +1,50 @@
+{
+  "name": "Music Newsletter Signup Webhook",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "newsletter-signup",
+        "responseMode": "lastNode",
+        "responseData": "allEntries"
+      },
+      "id": "webhook",
+      "name": "Signup Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "webhookUrl": "https://discord.com/api/webhooks/YOUR_DISCORD_WEBHOOK_ID/YOUR_DISCORD_WEBHOOK_TOKEN",
+        "text": "**New Newsletter Signup**\nEmail: `{{ $json.body.email }}`\nSource: landing page",
+        "options": {}
+      },
+      "id": "discord",
+      "name": "Discord Node",
+      "type": "n8n-nodes-base.discord",
+      "typeVersion": 1,
+      "position": [250, 0]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={ \"success\": true, \"message\": \"You're in! First issue lands Friday.\" }",
+        "options": {}
+      },
+      "id": "respond",
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [500, 0]
+    }
+  ],
+  "connections": {
+    "Signup Webhook": {
+      "main": [[{ "node": "Discord Node", "type": "main", "index": 0 }]]
+    },
+    "Discord Node": {
+      "main": [[{ "node": "Respond", "type": "main", "index": 0 }]]
+    }
+  }
+}

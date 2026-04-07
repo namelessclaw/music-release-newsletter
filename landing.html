@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drop Scan — New Music Discovery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #12121a;
+      --border: #1e1e2e;
+      --text: #e4e4ed;
+      --text-muted: #6b6b80;
+      --accent: #c277ff;
+      --accent-dim: #7c3aed;
+      --pink: #ff6bc1;
+      --cyan: #22d3ee;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      position: relative;
+      padding: 80px 24px 100px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(194,119,255,0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 400px;
+      height: 300px;
+      background: radial-gradient(ellipse, rgba(255,107,193,0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 32px;
+      position: relative;
+    }
+
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+    }
+
+    .logo-text {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent), var(--pink));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .headline {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(36px, 6vw, 64px);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .headline-gradient {
+      background: linear-gradient(135deg, #fff 0%, var(--text-muted) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .headline span {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--pink) 50%, var(--cyan) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subheadline {
+      font-size: 18px;
+      color: var(--text-muted);
+      max-width: 520px;
+      margin: 0 auto 48px;
+      line-height: 1.6;
+      position: relative;
+    }
+
+    .signup-form {
+      display: flex;
+      gap: 10px;
+      max-width: 440px;
+      margin: 0 auto;
+      position: relative;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .email-input {
+      flex: 1;
+      min-width: 220px;
+      padding: 14px 18px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      font-size: 15px;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .email-input:focus {
+      border-color: var(--accent-dim);
+    }
+
+    .email-input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .submit-btn {
+      padding: 14px 28px;
+      background: linear-gradient(135deg, var(--accent-dim), var(--accent));
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+      transition: opacity 0.2s, transform 0.1s;
+      white-space: nowrap;
+    }
+
+    .submit-btn:hover { opacity: 0.88; }
+    .submit-btn:active { transform: scale(0.97); }
+
+    .form-note {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 12px;
+      position: relative;
+    }
+
+    .form-success {
+      display: none;
+      color: var(--cyan);
+      font-size: 15px;
+      margin-top: 16px;
+      position: relative;
+    }
+
+    /* Genres */
+    .genres-section {
+      padding: 60px 24px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .genres-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 12px;
+    }
+
+    .genre-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .genre-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .genre-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Sample section */
+    .sample-section {
+      padding: 60px 24px 80px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .sample-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .sample-header h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .sample-header p {
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    .sample-release {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .sample-release:hover {
+      border-color: var(--accent-dim);
+      transition: border-color 0.2s;
+    }
+
+    .release-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 2px;
+    }
+
+    .release-artist {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .release-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+    }
+
+    .release-genre-tag {
+      background: rgba(194,119,255,0.12);
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+
+    .release-date {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* How it works */
+    .how-section {
+      padding: 60px 24px 80px;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .how-section h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 24px;
+    }
+
+    .step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .step-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+
+    .step-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .step-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 24px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    @media (max-width: 500px) {
+      .signup-form { flex-direction: column; }
+      .email-input { min-width: unset; }
+      .submit-btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="logo">
+      <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" stroke="url(#grad)" stroke-width="2" fill="none"/>
+        <path d="M16 13L16 27L27 20L16 13Z" fill="url(#grad)"/>
+        <defs>
+          <linearGradient id="grad" x1="0" y1="0" x2="40" y2="40">
+            <stop offset="0%" stop-color="#c277ff"/>
+            <stop offset="100%" stop-color="#ff6bc1"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span class="logo-text">Drop Scan</span>
+    </div>
+    <h1 class="headline">
+      <span>New music,</span><br>
+      <span class="headline-gradient"> curated every week</span>
+    </h1>
+    <p class="subheadline">
+      A free weekly dispatch of fresh releases across electronic, ambient, hip-hop, metal, and more — pulled from MusicBrainz, sent to your inbox.
+    </p>
+    <form class="signup-form" id="signup-form" action="#" method="POST">
+      <input
+        class="email-input"
+        type="email"
+        name="email"
+        placeholder="your@email.com"
+        required
+        autocomplete="email"
+      >
+      <button class="submit-btn" type="submit">Subscribe Free</button>
+    </form>
+    <p class="form-note" id="form-note">No spam. Unsubscribe anytime. 94 releases last week.</p>
+    <p class="form-success" id="form-success">🎉 You're in! First issue lands in your inbox next week.</p>
+  </section>
+
+  <section class="genres-section">
+    <p class="section-label">Covering 8 genres</p>
+    <div class="genres-grid">
+      <div class="genre-card">
+        <span class="genre-name">Electronic</span>
+        <span class="genre-count">Techno, house, ambient, IDM</span>
+      </div>
+      <div class="genre-card">
+        <span class="genre-name">Hip-Hop</span>
+        <span class="genre-count">Beats, rap, experimental</span>
+      </div>
+      <div class="genre-card">
+        <span class="genre-name">Metal</span>
+        <span class="genre-count">Doom, death, black, post</span>
+      </div>
+      <div class="genre-card">
+        <span class="genre-name">Jazz</span>
+        <span class="genre-count">Avant-garde, fusion, free</span>
+      </div>
+      <div class="genre-card">
+        <span class="genre-name">Experimental</span>
+        <span class="genre-count">Noise, drone, avant</span>
+      </div>
+      <div class="genre-card">
+        <span class="genre-name">Rock</span>
+        <span class="genre-count">Indie, psych, post-punk</span>
+      </div>
+      <div class="genre-card">
+        <span class="genre-name">Classical</span>
+        <span class="genre-count">Contemporary, minimal</span>
+      </div>
+      <div class="genre-card">
+        <span class="genre-name">Global</span>
+        <span class="genre-count">Afrobeat, latin, asian</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sample-section">
+    <div class="sample-header">
+      <h2>Fresh finds from last week</h2>
+      <p>A taste of what's been landing in inboxes</p>
+    </div>
+    <div class="sample-release">
+      <div>
+        <div class="release-title">Submerged Frequencies Vol. 3</div>
+        <div class="release-artist">Various Artists — Compilation</div>
+      </div>
+      <div class="release-meta">
+        <span class="release-genre-tag">Electronic</span>
+        <span class="release-date">Apr 4, 2026</span>
+      </div>
+    </div>
+    <div class="sample-release">
+      <div>
+        <div class="release-title">Drift Protocol</div>
+        <div class="release-artist">Neon Codex — Album</div>
+      </div>
+      <div class="release-meta">
+        <span class="release-genre-tag">Experimental</span>
+        <span class="release-date">Apr 3, 2026</span>
+      </div>
+    </div>
+    <div class="sample-release">
+      <div>
+        <div class="release-title">Iron Candle</div>
+        <div class="release-artist">Drowse — EP</div>
+      </div>
+      <div class="release-meta">
+        <span class="release-genre-tag">Metal</span>
+        <span class="release-date">Apr 2, 2026</span>
+      </div>
+    </div>
+    <div class="sample-release">
+      <div>
+        <div class="release-title">Phonk Delta</div>
+        <div class="release-artist">DJbt — Single</div>
+      </div>
+      <div class="release-meta">
+        <span class="release-genre-tag">Hip-Hop</span>
+        <span class="release-date">Apr 1, 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-section">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-icon">🔍</div>
+        <div class="step-title">Scanned weekly</div>
+        <div class="step-desc">MusicBrainz surfaces new releases across 8 curated genres every week</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">🤖</div>
+        <div class="step-title">AI-filtered</div>
+        <div class="step-desc">Low-quality releases and reissues are weeded out automatically</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">📬</div>
+        <div class="step-title">Delivered to inbox</div>
+        <div class="step-desc">A clean digest lands in your email every Friday evening</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built by <a href="https://max.pleaner.com">Max Pleaner</a> · Powered by <a href="https://musicbrainz.org">MusicBrainz</a></p>
+  </footer>
+
+  <script>
+    // TODO: Replace with your N8N webhook URL before deploying
+    const WEBHOOK_URL = 'https://YOUR_N8N_HOST/webhook/newsletter-signup';
+
+    const form = document.getElementById('signup-form');
+    const note = document.getElementById('form-note');
+    const success = document.getElementById('form-success');
+    const btn = form.querySelector('.submit-btn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = form.email.value;
+      btn.textContent = 'Subscribing...';
+      btn.disabled = true;
+      try {
+        // POST to N8N webhook
+        const res = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email }),
+        });
+        if (!res.ok) throw new Error('Failed');
+        form.style.display = 'none';
+        note.style.display = 'none';
+        success.style.display = 'block';
+      } catch(err) {
+        btn.textContent = 'Subscribe Free';
+        btn.disabled = false;
+        alert('Something went wrong. Try again?');
+      }
+    });
+  </script>
+</body>
+</html>
